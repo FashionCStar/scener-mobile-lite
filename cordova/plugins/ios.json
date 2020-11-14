@@ -1,0 +1,41 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-keyboard": {
+      "PACKAGE_NAME": "com.scener.app"
+    },
+    "cordova-plugin-safariviewcontroller": {
+      "PACKAGE_NAME": "com.scener.app"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.scener.app"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.scener.app"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.scener.app"
+    },
+    "cordova-plugin-firebase-messaging": {
+      "IOS_FIREBASE_MESSAGING_VERSION": "~> 7.0.0",
+      "ANALYTICS_COLLECTION_ENABLED": "true",
+      "AUTOMATIC_SCREEN_REPORTING_ENABLED": "true",
+      "IOS_FIREBASE_ANALYTICS_VERSION": "~> 7.0.0",
+      "PACKAGE_NAME": "com.scener.app"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-firebase-analytics": {
+      "ANALYTICS_COLLECTION_ENABLED": "true",
+      "AUTOMATIC_SCREEN_REPORTING_ENABLED": "true",
+      "IOS_FIREBASE_ANALYTICS_VERSION": "~> 7.0.0",
+      "PACKAGE_NAME": "com.scener.app"
+    }
+  }
+}
